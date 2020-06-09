@@ -1,12 +1,12 @@
-def is_prime(nb):
-    if nb == 1:
+def is_prime(n):
+    if n == 1:
         return False
-    if nb == 2:
+    if n == 2:
         return True
-    elif nb%2 == 0:
+    elif n%2 == 0:
         return False
-    for i in range(3, int(nb**0.5)+1, 2):
-        if nb%i == 0:
+    for i in range(3, int(n**0.5)+1, 2):
+        if n%i == 0:
             return False
     return True
 
