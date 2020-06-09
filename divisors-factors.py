@@ -10,7 +10,7 @@ def divisors(n, extremum= False):
                     divisors.append(n//i)
     return sorted(divisors)
 
-Examples:
+# Examples:
 
 divisors(15) # [3, 5]
 divisors(15, True) # [1, 3, 5, 15]
